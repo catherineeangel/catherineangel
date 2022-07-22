@@ -20,7 +20,7 @@ const AddBlog: NextPage = () => {
     setLoading(false)
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: { preventDefault: () => void }) => {
     event.preventDefault()
     setLoading(true)
     if (!!title && !!content) {

@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import { NAVBAR_CONTENT } from '../../misc/constants/navbarContent'
-import { scrollToSection } from '../func'
 import { useWindowSize } from '../hooks'
 
 const Navbar = () => {

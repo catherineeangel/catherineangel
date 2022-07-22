@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import { Tooltip } from '@mui/material'
 import axios from 'axios'
 import type { NextPage } from 'next'
