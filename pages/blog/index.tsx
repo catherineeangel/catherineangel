@@ -11,7 +11,7 @@ import { getBlogs } from '../../misc/func/getServerSide'
 const Blog: NextPage = ({ blogs }) => {
   return (
     <div className="">
-      <div className="min-h-screen p-10">
+      <div className="min-h-screen py-10 px-5 md:px-10">
         <ul>
           <BlogPreview data={blogs} isPreview={false} />
         </ul>

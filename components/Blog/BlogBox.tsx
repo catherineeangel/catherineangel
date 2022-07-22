@@ -54,7 +54,9 @@ const BlogBox: FC<BlogBoxProps> = ({ id, title, content, like }) => {
             onClick={() => window.open('/blog/' + id)}
             className="flex flex-row"
           >
-            <p className="underline align-text-bottom">Read more</p>
+            <p className="border-b-2 border-peach align-text-bottom">
+              Read more
+            </p>
             <BsArrowRightShort
               style={{ fontSize: '1.5em' }}
               className="md:hidden"

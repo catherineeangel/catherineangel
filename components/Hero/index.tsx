@@ -13,11 +13,12 @@ const Hero = () => {
           objectFit="cover"
         />
       </div>
-      <div className="relative z-10 pl-10 md:pl-20 font-martel text-6xl tracking-widest leading-tight">
+      <div className="relative z-10 pl-10 md:pl-20 font-martel text-4xl md:text-6xl tracking-widest leading-tight">
         <div className="">
           <p>Hi, there!</p>
           <p>
             I&apos;m
+            <br className="block md:hidden" />
             <span className="italic shadow shadow-rose text-coral">
               Catherine Angel
             </span>
