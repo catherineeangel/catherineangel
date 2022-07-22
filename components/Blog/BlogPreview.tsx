@@ -23,6 +23,7 @@ const BlogPreview: FC<BlogPreviewProps> = ({ data, isPreview = true }) => {
           )
         })}
       </div>
+      {isPreview && <div></div>}
     </section>
   )
 }

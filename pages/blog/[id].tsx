@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 import { useRouter } from 'next/router'
 import toast from 'react-hot-toast'
 import { FcLike } from 'react-icons/fc'
+import ReactMarkdown from 'react-markdown'
 import { API_TOKEN } from '../../misc/constants/token'
 import { getBlogs } from '../../misc/func/getServerSide'
 
@@ -39,7 +40,9 @@ const Blog: NextPage = ({ blogs }) => {
               <FcLike /> {blogPost.like}
             </button>
           </Tooltip>
-          <p className="font-karla text-base md:text-lg">{blogPost.content}</p>
+          <ReactMarkdown className="font-karla">
+            {blogPost.content}
+          </ReactMarkdown>
         </div>
       </div>
     </div>

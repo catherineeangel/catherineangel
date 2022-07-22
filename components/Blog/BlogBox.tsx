@@ -38,8 +38,8 @@ const BlogBox: FC<BlogBoxProps> = ({ id, title, content, like }) => {
         />
       </div>
       <div className="py-4 md:py-0 px-10">
-        <p className="font-martel font-bold text-2xl">{title}</p>
-        <p className="font-karla text-md line-clamp-3">{content}</p>
+        <p className="font-martel font-bold text-xl">{title}</p>
+        <p className="font-karla text-md line-clamp-2">{content}</p>
 
         <Tooltip title="Like this post">
           <button
@@ -54,7 +54,7 @@ const BlogBox: FC<BlogBoxProps> = ({ id, title, content, like }) => {
             onClick={() => window.open('/blog/' + id)}
             className="flex flex-row"
           >
-            <p className="underline ">Read more</p>
+            <p className="underline align-text-bottom">Read more</p>
             <BsArrowRightShort
               style={{ fontSize: '1.5em' }}
               className="md:hidden"
