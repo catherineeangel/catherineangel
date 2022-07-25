@@ -1,5 +1,7 @@
 import React, { FC } from 'react'
 import BlogBox from './BlogBox'
+import { BiRightArrowAlt } from 'react-icons/bi'
+import { useRouter } from 'next/router'
 
 interface BlogPreviewProps {
   data: any[]
@@ -7,7 +9,7 @@ interface BlogPreviewProps {
 }
 
 const BlogPreview: FC<BlogPreviewProps> = ({ data, isPreview = true }) => {
-  // ini cuman nunjukin 3 post terakhir, trus ad kyk show more
+  const router = useRouter()
   const resData = isPreview ? data?.slice(0, 3) : data
   return (
     <section id="blog" className="py-10">
@@ -23,7 +25,19 @@ const BlogPreview: FC<BlogPreviewProps> = ({ data, isPreview = true }) => {
           )
         })}
       </div>
-      {isPreview && <div></div>}
+      {isPreview && (
+        <div className="px-20 flex justify-end">
+          <button
+            onClick={() => {
+              router.push('/blog')
+            }}
+            className="w-36 border border-2 border-rose hover:border-peach rounded p-1 flex flex-row items-center justify-center"
+          >
+            <p className="font-karla">All Blogs</p>
+            <BiRightArrowAlt />
+          </button>
+        </div>
+      )}
     </section>
   )
 }
