@@ -24,7 +24,7 @@ export const EXPERIENCE = [
     imgUrl: '/images/ristek.png',
   },
   {
-    title: 'Backend Developer',
+    title: 'Backend Developer Intern',
     link: 'https://www.sabilamall.co.id/',
     when: 'June 2023 - September 2023',
     where: 'Sabilamall',
