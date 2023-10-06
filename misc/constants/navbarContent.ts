@@ -5,14 +5,24 @@ export const NAVBAR_CONTENT = [
   },
   {
     title: 'About',
-    href: '/#about',
+    href: '/',
+    onClick: () => {
+      document.getElementById('about')?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'center',
+      })
+    },
   },
   {
     title: 'Experience',
-    href: '/#experience',
-  },
-  {
-    title: 'Blog',
-    href: '/blog',
+    href: '/',
+    onClick: () => {
+      document.getElementById('experience')?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center',
+      })
+    },
   },
 ]

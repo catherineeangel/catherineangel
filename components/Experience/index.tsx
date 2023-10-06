@@ -6,7 +6,6 @@ const Experience = () => {
   return (
     <section id="experience" className="px-10 bg-bone/30">
       <div className="relative">
-        {/* <div className="absolute w-1/2 bg-peach h-full right-0" /> */}
         <div className="relative z-10">
           <p className="text-center text-3xl md:text-5xl font-martel font-bold pt-8 md:py-12">
             My experience
