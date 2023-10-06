@@ -39,7 +39,7 @@ export const EXPERIENCE = [
   {
     title: 'Software Engineer',
     link: 'https://www.compfest.id/',
-    when: 'February 2022 - February 2023',
+    when: 'February 2022 - November 2022',
     where: 'Compfest',
     desc: [
       "Take part in Compfest's website development team as a Software Engineer.",
@@ -47,6 +47,18 @@ export const EXPERIENCE = [
       'Interviewed and recruited staffs of Software Engineering Compfest as Human Resources.',
     ],
     techStack: ['Blitz.js', ' TailwindCSS', 'Prisma'],
+    imgUrl: '/images/compfest1.png',
+  },
+  {
+    title: 'Head of IT Development',
+    link: 'https://educare.cs.ui.ac.id/',
+    when: 'February 2022 - November 2022',
+    where: 'Educare',
+    desc: [
+      'Supervised a team of 13 designers and developers in the production of Educare’s website.',
+      'Developed Educare’s website that features a job searching platform with more than 300 applicants',
+    ],
+    techStack: ['Next.js', ' TailwindCSS', 'Django'],
     imgUrl: '/images/compfest1.png',
   },
   {
