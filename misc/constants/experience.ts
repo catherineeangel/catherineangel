@@ -11,20 +11,46 @@ export type ExperienceType = {
 
 export const EXPERIENCE = [
   {
-    title: 'Human Resources of Software Engineering',
+    title: 'Lead Web Developer',
+    link: 'https://www.ristek.cs.ui.ac.id/',
+    when: 'February 2023 - Present',
+    where: 'RISTEK',
+    desc: [
+      'Actively engage in both internal and external projects for RISTEK as a Web Developer',
+      'Organize and held internal classes to ensure the continuous learning of the team.',
+      'A mentor to the web development members, providing them with guidance, feedback, and support to enhance their skills and ensure their growth within the team.',
+    ],
+    techStack: ['Next.js', 'Express.js', 'Django', ' TailwindCSS', 'Prisma'],
+    imgUrl: '/images/ristek.png',
+  },
+  {
+    title: 'Backend Developer',
+    link: 'https://www.sabilamall.co.id/',
+    when: 'June 2023 - September 2023',
+    where: 'Sabilamall',
+    desc: [
+      'Revamped and optimized the old API from scratch',
+      'Conducted stress tests on the old API to identify areas of improvement and refine the newly developed API.',
+      'Assisted in shaping the software architecture, notably aiding the migration of servers to AWS for a more centralized infrastructure.',
+    ],
+    techStack: ['Express.js', 'Prisma', 'Kysely'],
+    imgUrl: '/images/sabilamall.png',
+  },
+  {
+    title: 'Software Engineer',
     link: 'https://www.compfest.id/',
-    when: 'February 2022 - Present',
+    when: 'February 2022 - February 2023',
     where: 'Compfest',
     desc: [
       "Take part in Compfest's website development team as a Software Engineer.",
       'Responsible for the backend development of Compfest Company Profile, which includes creating database with Prisma and connecting it with the frontend.',
-      'Interviewed and recruited staffs of Software Engineering Compfest.',
+      'Interviewed and recruited staffs of Software Engineering Compfest as Human Resources.',
     ],
     techStack: ['Blitz.js', ' TailwindCSS', 'Prisma'],
     imgUrl: '/images/compfest1.png',
   },
   {
-    title: 'Staff of Web Development',
+    title: 'Web Developer',
     link: 'https://perak.cs.ui.ac.id/',
     when: 'January 2022 - March 2022',
     where: 'Pesta Rakyat Komputer',
@@ -36,7 +62,7 @@ export const EXPERIENCE = [
     imgUrl: '/images/perak1.png',
   },
   {
-    title: 'Staff of Web Development',
+    title: 'Web Developer',
     link: 'https://betis.cs.ui.ac.id/',
     when: 'November 2021 - January 2022',
     where: 'BETIS Fasilkom UI',
@@ -48,7 +74,7 @@ export const EXPERIENCE = [
     imgUrl: '/images/betis1.png',
   },
   {
-    title: 'Staff of Public Relation',
+    title: 'Public Relations Team',
     when: 'August 2021 - December 2021',
     where: 'Open House Fasilkom UI',
     desc: [
@@ -58,7 +84,7 @@ export const EXPERIENCE = [
     imgUrl: '/images/ohfasil.png',
   },
   {
-    title: 'Member of Web Development Team',
+    title: 'Web Developer',
     link: 'https://www.shapeyourlifeid.com/',
     when: 'August 2021 - September 2021',
     where: 'Shape Your Life ID',

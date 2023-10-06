@@ -8,9 +8,17 @@ import Hero from '../components/Hero'
 const Home: NextPage = () => {
   return (
     <div>
-      <Hero />
-      <About />
-      <Experience />
+      <div className="flex flex-col snap-proximity snap-y h-full">
+        <div className="snap-start">
+          <Hero />
+        </div>
+        <div className="snap-start">
+          <About />
+        </div>
+        <div className="snap-start">
+          <Experience />
+        </div>
+      </div>
     </div>
   )
 }

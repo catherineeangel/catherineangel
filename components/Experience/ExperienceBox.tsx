@@ -24,6 +24,14 @@ const ExperienceBox: FC<ExperienceType> = ({
         <p className="text-xl md:text-2xl">{title}</p>
         <p className="font-semibold">{where}</p>
         <p className="font-karla text-sm">{when}</p>
+        {!!techStack && (
+          <div className="pt-2">
+            <p className="">
+              Tech Stack:{' '}
+              <span className="font-bold">{techStack.join(', ')}</span>
+            </p>
+          </div>
+        )}
         <div className="text-[15px] font-karla py-3">
           {desc.map((des, idx) => {
             return (
