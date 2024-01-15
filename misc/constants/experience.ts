@@ -59,7 +59,7 @@ export const EXPERIENCE = [
       'Developed Educare’s website that features a job searching platform with more than 300 applicants',
     ],
     techStack: ['Next.js', ' TailwindCSS', 'Django'],
-    imgUrl: '/images/compfest1.png',
+    imgUrl: '/images/educare.png',
   },
   {
     title: 'Web Developer',
